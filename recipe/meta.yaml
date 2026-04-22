@@ -1,6 +1,6 @@
 {% set name = "pyunlocbox" %}
-{% set version = "0.5.2" %}
-{% set sha256 = "1b5da78030fde06961acfac1ad2652daed473f5c7cc2c0d9b7845660ef46b4af" %}
+{% set version = "0.6.1" %}
+{% set sha256 = "4f6885947c34060aa9cfe6f0c10fbdd837647732e251dd7e7555900716fa84a4" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
